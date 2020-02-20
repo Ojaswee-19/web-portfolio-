@@ -1,8 +1,15 @@
 body{
     font-family: 'Odibee Sans', cursive;
+   
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
 }
 #name-highlight{
     color: gold;
@@ -18,3 +25,53 @@ h1{
 .half-width img{
     width: 100%;
 }
+.top-banner{
+     background-image: url("Images/dream-bg.png");
+     background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 250px;
+
+}
+.link-button{
+     text-decoration: none;
+     background-image: linear-gradient(midnightblue,black);
+     padding: 10px 20px;
+     border-radius: 70%;
+     color: white;
+}
+.dream-area{
+    background-image: url("Images/eexp-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px grey;
+    height: 80%;
+    background-color: white;
+    }
+    .experience-area{
+        background-image:url("Images/exp-bg.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        
+    }
+    #full-stack{
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg,lightsalmon,tomato);
+        border-image-slice: 1;
+
+    }
+    #half-stack{
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg,blue,cyan);
+        border-image-slice: 1;
+
+    }
+    .name-light{
+        color: indigo;
+    }
+    #foot{
+        text-align: center;
+    }
